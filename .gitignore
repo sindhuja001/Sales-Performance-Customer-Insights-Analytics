@@ -1,0 +1,31 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter temporary folders
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Secret environment variables
+.env
+
+# Original raw data
+data/raw/*.csv
+
+# Temporary cleaning outputs
+data/interim/*
+
+# Excel temporary files
+~$*.xlsx
+
+# Operating-system files
+Thumbs.db
+.DS_Store
+
+# JupyterLab and Anaconda temporary folders
+.virtual_documents/
+anaconda_projects/
